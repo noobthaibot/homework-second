@@ -250,6 +250,10 @@ body {
 .partners__more-news-link {
     margin: 60px auto 0;
 }
+.foto {
+    width: 1280px;
+    height: 720px;
+}
 .calendar-banner {
     position: relative;
     height: 168px;
@@ -316,4 +320,8 @@ body {
     color: var(--secondary-text-color);
     font-size: 13px;
     font-weight: 300;
+}
+/* --------JS-------- */
+.slick-track {
+    display: flex;
 }
