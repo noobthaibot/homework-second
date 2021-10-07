@@ -130,11 +130,37 @@ body {
 }
 
 .banner .more-button {
-    
     margin-left: 630px;
     margin-top: 59px;
 }
 
 .experts__list {
     display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.experts__item {
+    margin-top: 100px;
+    width: 200px;
+    text-align: center;
+    color: #828282;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.experts__item a {
+    color: #828282;
+}
+
+.experts__item:not(:last-child)  {
+    margin-right: 135px;
+}
+.experts__block img {
+    width: 120px;
+    height: 120px;
+}
+.experts__link-more {
+    color: #828282;
+    border: 1px solid #828282;
+    border-radius: 3px;
+    margin: 60px auto 0;
 }
