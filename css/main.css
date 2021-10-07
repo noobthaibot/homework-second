@@ -1,6 +1,8 @@
 :root {
     --primary-bg-color: #102457;
-    --menu-text-color: #C6D3F5;
+    --menu-text-color: #c6d3f5;
+    --secondary-bg-color: #eb5757;
+    --secondary-text-color: #ffffff;
 }
 a {
     text-decoration: none;
@@ -9,7 +11,7 @@ ul {
     list-style: none;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -22,7 +24,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     margin: auto;
-    background-color: var(--primary-bg-color); 
+    background-color: var(--primary-bg-color);
     display: flex;
     align-items: center;
     padding-left: 100px;
@@ -34,7 +36,6 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    
 }
 .header__link {
     color: var(--menu-text-color);
@@ -70,4 +71,70 @@ body {
 .header-banner {
     display: block;
     margin: 0 auto;
+}
+
+.header-main-banner {
+    background-color: var(--primary-bg-color);
+}
+.header-main-banner {
+    color: var(--menu-text-color);
+    font-weight: 300;
+}
+.banner-title {
+    display: block;
+    max-width: 283px;
+    padding: 0px 0px 8px 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 64px;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color);
+}
+.banner {
+    background-image: url(../img/bannerbg1.png);
+    background-repeat: no-repeat;
+    height: 560px;
+}
+/* .banner-logo {
+    display: block;
+    width: 120px;
+    height: 104px;
+} */
+
+.banner-text {
+    font-size: 18px;
+    padding-left: 630px;
+    font-weight: 300;
+    margin-top: 102px;
+}
+
+.banner-text li:not(:first-child) {
+    list-style: square;
+    margin-top: 20px;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.more-button {
+    display: block;
+    width: 254px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: var(--secondary-text-color);
+    padding: 10px 42px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.banner .more-button {
+    
+    margin-left: 630px;
+    margin-top: 59px;
+}
+
+.experts__list {
+    display: flex;
 }
