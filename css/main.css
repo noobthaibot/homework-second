@@ -322,6 +322,28 @@ body {
     font-weight: 300;
 }
 /* --------JS-------- */
-.slick-track {
+.slider {
+    min-width: 0;
+}
+.slider .slick-track {
     display: flex;
+}
+.slider .slick-list {
+    overflow: hidden;
+}
+.slider .slick-track {
+    display: flex;
+}
+
+.slider .slider-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+}
+.slider .slick-arrow.slick-prev {
+    left: 0;
+}
+.slider .slick-arrow.slick-next {
+    right: 0;
 }
