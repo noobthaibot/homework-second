@@ -347,3 +347,18 @@ body {
 .slider .slick-arrow.slick-next {
     right: 0;
 }
+.banner .more-button:hover,
+.banner .more-button:focus,
+.experts__link-more:hover,
+.experts__link-more:focus,
+.partners__more-news-link:hover,
+.partners__more-news-link:focus {
+    background-color:var(--secondary-bg-color)
+}
+.news__more-news-link:hover,
+.news__more-news-link:focus {
+    background-color: var(--menu-text-color);
+}
+.social-links__images:hover {
+    fill: var(--secondary-bg-color);
+}
