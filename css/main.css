@@ -323,16 +323,19 @@ body {
 }
 /* --------JS-------- */
 .slider {
+    position: relative;
     min-width: 0;
 }
 .slider .slick-track {
     display: flex;
 }
 .slider .slick-list {
+    
     overflow: hidden;
 }
 .slider .slick-track {
     display: flex;
+    
 }
 
 .slider .slider-arrow {
@@ -342,7 +345,9 @@ body {
     font-size: 0;
 }
 .slider .slick-arrow.slick-prev {
+    position: absolute;
     left: 0;
+    top: 0;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
