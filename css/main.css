@@ -330,27 +330,30 @@ body {
     display: flex;
 }
 .slider .slick-list {
-    
     overflow: hidden;
 }
 .slider .slick-track {
     display: flex;
-    
 }
 
-.slider .slider-arrow {
-    position: absolute;
+.slider .slick-arrow {
+    position: absolute;  
     top: 50%;
-    left: 50%;
     font-size: 0;
+    font-size: 0;
+    z-index: 10;
+    width: 18px;
+    height: 55px;
+    margin-top: -25px;
 }
 .slider .slick-arrow.slick-prev {
-    position: absolute;
     left: 0;
-    top: 0;
+    background: url(../img/arrowleft.svg) 0 0 / 100% no-repeat;
+    
 }
 .slider .slick-arrow.slick-next {
     right: 0;
+    background: url(../img/arrowright.svg) 0 0 / 100% no-repeat;;
 }
 .banner .more-button:hover,
 .banner .more-button:focus,
